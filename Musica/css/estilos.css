@@ -1,0 +1,34 @@
+body{
+	background-color: #311b92 !important;}
+header{
+	background-color: #009688;}
+
+.logo-img img {
+	height: 90%;}
+
+.social-img {
+	border-radius:25%;
+	width: 7%;
+	height: 7%;}
+
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;}
+	
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;}
+	.contenido {
+		margin: 5px 10px;}
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;}
+	.redes-sociales {
+		text-align: center;}
+}
+@media (min-width: 991px){
+	.redes-sociales {
+		text-align: right;}
+	.logo-img {
+		text-align: left;}
+}
